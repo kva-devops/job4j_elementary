@@ -6,7 +6,7 @@ public class ArgMethod {
         System.out.println("Hello, " + name);
     }
 
-    public static void my_age(int age) {
+    public static void myAge(int age) {
         System.out.println("My age is " + age);
     }
 
@@ -14,6 +14,6 @@ public class ArgMethod {
         String name = "Vladimir Kutyavin";
         int age = 33;
         ArgMethod.hello(name);
-        ArgMethod.my_age(age);
+        ArgMethod.myAge(age);
     }
 }
