@@ -5,23 +5,19 @@ public class Converter {
 
     // method for converting rub to euro
     public static int rubToEur(int value) {
-        int result = value / 70;
-        return result;
+        return value / 70;
     }
     // method for converting euro to rub
     public static int eurToRub(int value) {
-        int result = value * 70;
-        return result;
+        return value * 70;
     }
     // method for converting rub to dollar
     public static int rubToDol(int value) {
-        int result = value / 60;
-        return result;
+        return value / 60;
     }
     // method for converting dollar to rub
     public static int dolToRub(int value) {
-        int result = value * 60;
-        return result;
+        return value * 60;
     }
     // start program
     public static void main(String[] args) {
