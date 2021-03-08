@@ -25,4 +25,11 @@ public class FitnessTest {
         int expected = 2;
         Assert.assertEquals(expected, out);
     }
+
+    @Test
+    public void whenIvanEqualsFewNik() {
+        int out = Fitness.calc(90, 90);
+        int expected = 1;
+        Assert.assertEquals(expected, out);
+    }
 }
