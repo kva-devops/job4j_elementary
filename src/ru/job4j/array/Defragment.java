@@ -7,10 +7,8 @@ public class Defragment {
         for (int index = 0; index < array.length; index++) {
             if (array[index] == null) {
                 int pointNull = index;
-                // find not null element and compare with null elem
                 for (int i = pointNull + 1; i < array.length; i++) {
                     if (array[i] != null) {
-                        // swap null element and not null
                         swap(array, pointNull, i);
                         break;
                     }
