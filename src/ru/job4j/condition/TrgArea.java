@@ -7,7 +7,7 @@ public class TrgArea {
     }
 
     public static void main(String[] args) {
-        double result = TrgArea.area(2, 2, 2);
+        double result = TrgArea.area(4, 4, 5.656);
         System.out.println("area(2, 2, 2) is " + result);
     }
 }
