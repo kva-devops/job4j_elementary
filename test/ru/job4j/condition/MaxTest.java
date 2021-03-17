@@ -28,4 +28,13 @@ public class MaxTest {
         int out = Max.max(a, b);
         Assert.assertEquals(expected, out);
     }
+
+    @Test
+    public void whenMax10To2And4Then10() {
+        int a = 10, b = 2, c = 4;
+        int expected = 10;
+        int out = Max.max(a, b, c);
+        Assert.assertEquals(expected, out);
+    }
+
 }
