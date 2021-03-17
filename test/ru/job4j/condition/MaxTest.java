@@ -37,4 +37,12 @@ public class MaxTest {
         Assert.assertEquals(expected, out);
     }
 
+    @Test
+    public void whenMax100To1And2And3Then100() {
+        int a = 1, b = 2, c = 100, d = 3;
+        int expected = 100;
+        int out = Max.max(a, b, c, d);
+        Assert.assertEquals(expected, out);
+    }
+
 }
